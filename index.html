@@ -29,6 +29,11 @@
   <!--logo-->
   <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
   <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <script>
+    if (location.protocol == 'http:') {
+      location.href = location.href.replace("http","https");
+    }
+  </script>
 
 </head>
 
