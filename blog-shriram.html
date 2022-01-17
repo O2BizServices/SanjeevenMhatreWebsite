@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Educenter</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+8850000352"><strong>CALL</strong> +885 000 0352</a></br>
+          <a class="text-color mr-3" href="callto:+9833617915"><strong>CALL</strong> +983 361 7915</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/sanjeevan.mhatre.1"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://instagram.com/sanjeevanmhatre?utm_medium=copy_link"><i class="ti-instagram text-primary"></i></a></li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="150px" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item @@home">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="courses.html">COURSES</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="blog.html">Our Blog</a></li>
+          <li class="list-inline-item text-white h3 font-secondary nasted">Blog Details</li>
+        </ul>
+        <p class="text-lighten">Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- blog details -->
+<section class="section-sm bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <img src="images/blog/post-6.jpg" alt="blog-thumb" class="img-fluid w-100">
+      </div>
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">Sunday, May 10, 2020</li>
+          <li class="list-inline-item mr-3 ml-0">By Sanjeevan Mhatre</li>
+          </ul>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+      <!-- blog contect -->
+      <div class="col-12 mb-5">
+        <h2>श्री राम...!</h2>
+        <p> राम ..! आदर्श जीवन,आदर्श राजा, आदर्श भाऊ, आदर्श मुलगा, आदर्श पती ....असे सर्व आदर्श ..यांची प्रतिकृती म्हणजेच राम ..! राम हा शब्द उलटा केला तर ' मरा' होतो.  याचा अर्थ 'राम' म्हणजेच जीवन..!! संपूर्ण जीवनभर आपण 'राम' होण्याचा म्हणजेच चांगलं किंवा आदर्श होण्याचा विचार करतो,  राम होण्यासाठी च जगतो. आपण आपल्यातले दुर्गुण कमी करून पूर्णत्वाकडे जाण्याचा  प्रयत्न करतो आयुष्यभर ..!! पूर्णत्वाचा आदर्श आपल्या संस्कृतीने आपल्या समोर ठेवला आहे - 'राम' ..!! एखाद्याच्या जीवनात काहीही उरले नसेल तर, आपण त्यात काही 'राम' उरला नाही असे म्हणतो.  'राम' याचा अर्थ जीवनाचे सार,जीवनाचे मर्म , आणि जीवनाचा अर्थ...!!  एकमेकांना भेटलो तरी अभिवादन करताना आपण 'राम राम' म्हणतो.  त्याचा अर्थ आपल्याला क्षणोक्षणी 'राम' स्मरावा ...यासाठी हा खटाटोप..!!  राम नामाने आदर्श जीवनाचे स्मरण करणे, आणि मेल्यावर सुद्धा 'राम नाम सत्य आहे' असं म्हणतात आपण जगाचा निरोप घेतो महात्मा गांधींनी सुद्धा शेवटच 'हे राम'  हे शब्द उच्चारले होते.
+            रामायण आपल्याला सर्वांनाच माहित  आहे. प्रभु रामचंद्रांना आपण ईश्वर मानतो. मानव रूपातील हा विष्णूचा अवतार ! एखाद्या मनुष्याप्रमाणेच त्यांना सर्व कर्तव्ये पार पाडावी लागली. रामायणाने आपल्यालाच नव्हे, भारतभूमीलाच नव्हे तर संपूर्ण जगताला ' मानवी जीवन कसे जगावे ' याचा एक आदर्श घालुन दिला आहे . राम जोपर्यंत  अयोध्येत होते, तोपर्यंत 'राजपुत्र राम', 'श्रीराम' म्हणून त्यांचा उल्लेख आहे.  परंतु चौदा वर्षांचा वनवासानंतर आणि रावणाचा वध करून आल्यानंतर, राम हे 'मर्यादा पुरुषोत्तम' आणि  'भगवान राम' म्हणून ओळखले जाऊ लागले.  कल्पना करा, त्यांचा  राज्याभिषेक होणार होता आणि अचानक त्यांना 14 वर्ष सपत्नीक वनवासात जावे लागले,  आपण किती आकांडतांडव केला असता, परंतु राज्याभिषेक होणार होता म्हणून ते आनंदी नव्हते आणि वनवासात जावे लागले म्हणून ते दुःखी नव्हते.  आलेल्या प्रत्येक गोष्टीला ते अत्यंत स्वीकार भावनेने सामोरे गेले.  आणि चौदा वर्षांचा खडतर वनवास भोगून, रावणाशी युद्ध लढून आणि जिंकून 'भगवान राम'  म्हणून परत आले...!!
+                प्रभू रामचंद्र यांच्या वर संकटावर संकटे कोसळली. 14 वर्षे वनवास,  पित्याचा मृत्यू, पत्नीचे अपहरण, लक्ष्मणाला आलेली मुर्च्छा, रावणाबरोबर घनघोर युद्ध.... अनेक प्रसंग राम या शब्दाची कसोटी पाहतात. मला काही वैशिष्ट्ये जरूर नमूद करावीशी वाटतात.  रावणाबरोबर लढण्यासाठी  बलशाली  वाली ला सोबत न घेता,  सुग्रीव  ला सोबत घेतले. वाली इतका बलाढ्य होता की त्याने रावणाला पराभूत केले होते.  तो इतका बलशाली होता की एखाद्या 'वाली' नाही म्हणजेच आधार नाही हा वाक्प्रचार वाली चे महत्व सांगून जातो.  परंतु वाली ने स्वतःच्या भावाच्या पत्नीचे अपहरण  केले, म्हणून प्रभू रामचंद्र यांनी वाली चा वध केला. बलाढ्य  परंतु असत्य असणाऱ्या वालीची बाजू न घेता सत्य असणाऱ्या सुग्रीवाची बाजू घेतली. सत्याच्या सोबत  राहायला ताकद लागते.  हनुमंत, जांबुवंत, सुग्रीव, नल, निल, अंगद असे अनेक जबरदस्त योद्धे  निर्माण करून त्यांच्यात नेतृत्वागुण विकसित केले.  रावणाकडे जबरदस्त ताकत महान योद्धे, सक्षम राक्षसी  सेना असे सर्व होते. परंतु सत्य कधीही ही पराभूत होत नाही.  'सत्यमेव जयते' हे ब्रीद वाक्य आपल्याला प्रभू रामचंद्रांच्या संपूर्ण जीवनचरित्रातून मिळते.  कोणत्याही प्रसंगात धीरगंभीर, स्मितहास्य करीत सामोरे जाणाऱ्या प्रभु रामचंद्र, प्रचंड पराक्रमी, निश्चयाचा,कर्तव्याचा परमोच्च बिंदू च आहेत ..!! राम राजा असून सुद्धा शबरीची उष्टी बोरे खातात, केवटला जवळ करतात, सुग्रीवाला राज्य मिळवून देतात आणि रावणाचा वध सुद्धा करतात...!!  म्हणूनच 'मर्यादा पुरुषोत्तम', 'भगवान राम' असा  आदर्श भारतीय संस्कृतीचा वारसा आपण सांगतो.  कठीण प्रसंगात अत्यंत शांत राहणाऱ्या प्रभू रामचंद्र, उत्कृष्ट सेनानी, महापराक्रमी राजा, दयाळू ,शांत असे हजारो-लाखो गुण रामायणातील एकेक प्रसंगांवर आपल्याला सांगता येतात. 
+   लहानपणी आईनं सांगितलं होतं की भुताची भीती वाटली तर 'राम राम'  म्हणायचं ....भुतं पळून जातात इतका राम आपल्या आयुष्यात आहे, नव्हे  तो तर आमच्या जीवनाचा आधार आहे ...!! 
+जय श्रीराम !!!
+संजीवन म्हात्रे </p>
+      </div>
+      <!-- comment box -->
+      <div class="col-12">
+        <form action="#" class="row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control mb-4" id="name" name="name" placeholder="Full Name">
+          </div>
+          <div class="col-sm-6">
+            <input type="email" class="form-control mb-4" id="mail" name="mail" placeholder="Email Address">
+          </div>
+          <div class="col-12">
+            <textarea name="comment" id="comment" class="form-control mb-4" placeholder="Comment Here..."></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" value="send" class="btn btn-primary">post comment</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog details -->
+
+<!-- recommended post -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">Recommended</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/blog/blog-single.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0"> December 16, 2021</li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0">By Sanjeevan Mhatre</li>
+        </ul>
+        <a href="blog-single.html">
+          <h4 class="card-title">डिसेंबर</h4>
+        </a>
+        <a href="blog-single.html" class="btn btn-primary btn-sm">read more</a>
+      </div>
+    </div>
+  </article>
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/blog/post-2.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0"> March 14, 2021</li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0">By Sanjeevan Mhatre</li>
+        </ul>
+        <a href="blog-drushti.html">
+          <h4 class="card-title">दृष्टी</h4>
+        </a>
+        <a href="blog-drushti.html" class="btn btn-primary btn-sm">read more</a>
+      </div>
+    </div>
+  </article>
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/blog/post-3.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0">September 20, 2020</li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0">By Sanjeevan Mhatre</li>
+        </ul>
+        <a href="blog-bolan.html">
+          <h4 class="card-title">बोलणं खुप महत्वाचं ..!!</h4>
+        </a>
+        <a href="blog-bolan.html" class="btn btn-primary btn-sm">read more</a>
+      </div>
+    </div>
+  </article>
+  
+</div>
+  </div>
+</section>
+<!-- /recommended post -->
+
+<!-- footer -->
+<footer>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">Copyright
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            © O2BizServices</p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/sanjeevan.mhatre.1"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://instagram.com/sanjeevanmhatre?utm_medium=copy_link"><i class="ti-instagram text-primary"></i></a></li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
